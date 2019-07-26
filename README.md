@@ -20,4 +20,7 @@ MapBox Geocoding API: The Mapbox Geocoding API does two things: forward geocodin
 Forward geocoding converts location text into geographic coordinates
 Reverse geocoding on the other hand turns geographic coordinates into place names.
 
+NOTE:
+TO RUN APP, KINDLY INSTALL NODEMON GLOBALLY. Next, run NPM RUN DEV to start the app.
+
 Developed with 💜 by Joseph Gitau
