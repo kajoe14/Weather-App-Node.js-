@@ -1,3 +1,9 @@
+/******
+ * 
+ * Joseph Gitau - 
+ * 
+ ******/
+
 // client-side js code
 
 // Change background image
