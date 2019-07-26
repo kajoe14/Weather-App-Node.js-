@@ -4,7 +4,7 @@ const forecast = (latitude, longitude, callback) => {
   const url = 'https://api.darksky.net/forecast/fe34d4bb7eacc5616a2e0f4b6141890c/' + latitude + ',' + longitude + '?units=si';
   request({ url, json: true }, (error, response) => {
     if (error) {
-      callback('Error establishing a coonection with API', undefined)
+      callback('Error establishing a connection with API', undefined)
     } else if (response.body.error) {
       callback('The location is invalid, please search again', undefined)
     } else { 
